@@ -15,6 +15,7 @@ import { ListingComponent } from './components/listing/listing.component';
 import { AddListingComponent } from './components/add-listing/add-listing.component';
 import { EditListingComponent } from './components/edit-listing/edit-listing.component';
 
+/*
 export const firebaseConfig = {
   apiKey: 'AIzaSyBzMDTMDWrBZbUkNC-uSNmQIl5rCbNoqeg',
   authDomain: 'proplistings-1eed8.firebaseapp.com',
@@ -22,7 +23,15 @@ export const firebaseConfig = {
   storageBucket: 'proplistings-1eed8.appspot.com',
   messagingSenderId: '605642180089'
 };
+*/
 
+export const firebaseConfig = {
+    apiKey: "AIzaSyDodZmHDCecDkjiG9HWlRPs8KLbJIo0dzU",
+    authDomain: "proplisting-3eace.firebaseapp.com",
+    databaseURL: "https://proplisting-3eace.firebaseio.com",
+    storageBucket: "proplisting-3eace.appspot.com",
+    messagingSenderId: "883245683075"
+  };
 const firebaseAuthConfig = {
   provider: AuthProviders.Google,
   method: AuthMethods.Popup
