@@ -9,11 +9,11 @@ import {FlashMessagesModule} from 'angular2-flash-messages';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
-import { ListingsComponent } from './components/listings/listings.component';
+import { ListingsComponent } from './components/listingComponent/listings/listings.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { ListingComponent } from './components/listing/listing.component';
-import { AddListingComponent } from './components/add-listing/add-listing.component';
-import { EditListingComponent } from './components/edit-listing/edit-listing.component';
+import { ListingComponent } from './components/listingComponent/listing/listing.component';
+import { AddListingComponent } from './components/listingComponent/add-listing/add-listing.component';
+import { EditListingComponent } from './components/listingComponent/edit-listing/edit-listing.component';
 
 /*
 export const firebaseConfig = {
